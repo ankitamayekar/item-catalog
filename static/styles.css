@@ -1,4 +1,4 @@
-body            { font-family: sans-serif; background-image: url(background.jpg)}
+body            { font-family: sans-serif; background-image: url(bg.jpg);     background-size: cover;}
  h1, h2, h3, h4       { color: #8E4585; }
 h1, h2          { font-family: 'Georgia', serif; margin: 0; }
 h1              { border-bottom: 2px solid #eee; }
@@ -6,9 +6,11 @@ h2              { font-size: 1.2em; }
 
 p              { color: #8E4585;}
 
-a {text-decoration: none; color:#FFFFCC; font-size: .75em;}
+a {text-decoration: none; color:#808000; font-size: .75em;}
 
-.pane {position:absolute; left: 25%;right: 25%; border: 2px solid; padding: 50px; margin: 5px; border-color: #999999; background-color: #F9E79F; }
+
+.pane {position:absolute; left: 25%;right: 25%; border: 2px solid; padding: 50px; margin: 5px; border-color: #999999; background-color: #F1948A;    opacity: 0.8;}
+
 .header         {left:50%; text-align: center;}
 .name {width:50%;display: inline-block; float: left;}
 .description {}
