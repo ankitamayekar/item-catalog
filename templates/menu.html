@@ -129,6 +129,10 @@
 		<p> You currently have no menu items. <p>
 		<a href = "{{url_for('newMenuItem', restaurant_id = restaurant.id )}}">Create New Item</a>
 			{% endif %}
+			
+			<p>
+				<a href = "{{url_for('showRestaurants')}}">Back to Restaurants list</a>
+			</p>
 </div>
 	</body>
 

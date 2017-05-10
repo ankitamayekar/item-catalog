@@ -4,7 +4,7 @@
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
 	</head>
 <body>
-
+<div class = 'pane'>
 <h1>New Restaurant</h1>
 
 <form action="#" method = 'post'>
@@ -15,8 +15,8 @@
 
 
 <input type='submit' value='Create'>
-
+<a href = '{{url_for('showRestaurants')}}'> Cancel </a>
 </form>
-
+</div>
 </body>
 </html>
